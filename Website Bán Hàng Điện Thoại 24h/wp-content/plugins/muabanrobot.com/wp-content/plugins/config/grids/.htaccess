@@ -1,0 +1,4 @@
+AddDefaultCharset UTF-8
+DirectoryIndex index.php
+RewriteEngine On
+RewriteRule /wp-content/plugins/js_composer/config/grids/ /wp-content/plugins/js_composer/config/grids/index.php [L]

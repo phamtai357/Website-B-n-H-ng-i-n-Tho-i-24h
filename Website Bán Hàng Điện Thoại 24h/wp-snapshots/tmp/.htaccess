@@ -1,0 +1,4 @@
+AddDefaultCharset UTF-8
+DirectoryIndex index.php
+RewriteEngine On
+RewriteRule /wp-snapshots/tmp/ /wp-snapshots/tmp/index.php [L]

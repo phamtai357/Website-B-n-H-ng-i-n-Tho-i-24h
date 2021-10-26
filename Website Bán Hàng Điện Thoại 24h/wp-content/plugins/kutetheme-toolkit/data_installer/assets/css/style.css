@@ -1,0 +1,39 @@
+.container-box{
+    overflow: hidden;
+}
+.container-box li.box-item .loading-gif{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-32px);
+    opacity: 0;
+}
+.container-box li.box-item{
+    float: left;
+    width: 250px;
+    background: #fff;
+    padding: 5px;
+    margin-right: 10px;
+    transition: 0.2s background-color ease-in-out;
+    -moz-transition: 0.2s background-color ease-in-out;
+    -webkit-transition: 0.2s background-color ease-in-out;
+    -khtml-transition: 0.2s background-color ease-in-out;
+    position: relative;
+}
+.container-box li.box-item:hover{
+    background-color: rgba( 0,0,0,0.5 );
+}
+.item-button{
+    text-align: right;
+    padding: 5px 10px;
+}
+.container-box li.box-item.loading{
+    background: rgba( 0,0,0,0.5 );
+}
+.container-box li.box-item.loading .loading-gif{
+    opacity: 1;
+}
+.box-item.loading img,
+.box-item.loading .item-button{
+    opacity: 0.5;
+}
